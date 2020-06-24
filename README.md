@@ -34,7 +34,7 @@ application.properties :
 <pre><code>
 keycloak.auth-server-url=http://your_keyclok_url:port/auth
 keycloak.realm=springDemo 
-keycloak.resource=product-app 3 client name
+keycloak.resource=product-app # client name
 keycloak.public-client=true
 
 keycloak.principal-attribute=preferred_username # default claim send in JWT, you can create a custom one via user attributes
