@@ -1,9 +1,9 @@
 # Keycloak spring-boot simple
 
 ## template
-thymeleaf starter 
-spring-boot-starter-thymeleaf
-path : /src/main/resources/templates
+- thymeleaf starter 
+- spring-boot-starter-thymeleaf
+- path : /src/main/resources/templates
 
 ## security
 
@@ -18,15 +18,15 @@ path : /src/main/resources/templates
       http.csrf().disable();
 </code></pre>
 
-use HttpSecurity to set our authorization strategy
-we can use role annotations instead
+- use HttpSecurity to set our authorization strategy
+- we can use role annotations instead
 
 ### keycloak
-1 create a realm 
-2 create a client
-2 create a role(s)
-4 create a user 
-5 add role(s) to user 
+1. create a realm 
+2. create a client
+3. create a role(s)
+4. create a user 
+5. add role(s) to user 
 
 ### keycloak spring config
 
